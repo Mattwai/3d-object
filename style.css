@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #59656f
+}
+
+header {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 40px;
+    color: #ffffff
+}
+
+img {
+    width: 75%;
+    border: 5px solid black;
+}
+
+header {
+    font-size: 100%
+}
+
+.text {
+    width: 75%;
+    border: 5px solid;
+    padding: 25px;
+
+}
+
+.container {
+    border: 1px solid red;
+    width: 90%
+}
+
+.photo {
+    float: left;
+    width: 50%;
+}
+
+.gallery {
+    float: left;
+    padding-left: 10px;
+}
+
+#nature {}
+
+#sunset {}
+
+#lighthouse {}
+
+#bubbles {}
+
+#mountain {}
