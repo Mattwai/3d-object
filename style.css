@@ -1,0 +1,193 @@
+* {
+    background-color: #E7E4E5;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    /*This line is from google fonts*/
+}
+
+
+h1 {
+    color: black;
+}
+
+.title {
+    float: left;
+    margin-left: 1vw;
+    border: .5vw;
+    border-style: solid;
+    border-color: #000000;
+    padding: 1vw 0px 1vw 0px;
+    margin-top: 1vw;
+
+}
+
+#title {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 2.5vw;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.objinfo {
+    padding-top: 8vw;
+    margin-left: 8vw;
+    text-align: left;
+    font-size: 1.05vw;
+}
+
+.webinfo {
+    padding-top: 9vw;
+    margin-left: 8vw;
+    text-align: left;
+    font-size: 1.3vw;
+}
+
+.inspo {
+    padding-top: 1vw;
+    margin-left: 30vw;
+    width: 100%;
+    position: fixed;
+
+}
+
+#moodboard {
+    width: 40vw;
+}
+
+.text {
+    padding-top: 7vw;
+    margin-left: 8vw;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 125px;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 0 5px 5px 0;
+    margin-top: 100px;
+}
+
+/*This section comes from W3Schools*/
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+/*This section comes from W3Schools*/
+
+#home {
+    color: #FFFFFF;
+    background-color: #4B4B4B;
+    top: 1vw;
+}
+
+#info {
+    top: 5.5vw;
+    background-color: #E70B08;
+    color: #FFFFFF;
+}
+
+#inspo {
+    top: 10vw;
+    background-color: darkorange;
+    color: #FFFFFF;
+}
+
+#web {
+    top: 14.5vw;
+    background-color: #FFD700;
+    color: #FFFFFF;
+}
+
+#tilt {
+    top: 19vw;
+    background-color: limegreen;
+    color: #FFFFFF;
+}
+
+#os {
+    top: 23.5vw;
+    background-color: deepskyblue;
+    color: #FFFFFF;
+}
+
+#ws {
+    top: 29.5vw;
+    background-color: mediumpurple;
+    color: #FFFFFF;
+}
+
+.screenshots {
+    width: 100px;
+    padding: 5px;
+    margin-left: 100px;
+    padding-top: 70px;
+
+
+}
+
+.tiltbrush {
+    margin-left: 160px;
+    padding-top: 50px;
+}
+
+.tilttext {
+    text-align: center;
+    padding: 20px 200px;
+}
+
+.photo {
+    width: 100%;
+    margin-left: 25vw;
+    padding-top: 3vw;
+}
+
+.mySlides {
+    display: none
+}
+
+/*This section comes from W3Schools*/
+
+.w3-left {
+    cursor: pointer;
+    padding-left: 375px;
+    position: absolute;
+}
+
+/*This section comes from W3Schools*/
+
+.w3-right {
+    cursor: pointer;
+    margin-left: 425px;
+
+}
+
+/*This section comes from W3Schools*/
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    cursor: pointer;
+}
+
+/*This section comes from W3Schools*/
+
+.w3-content {
+    margin-left: 250px;
+    padding-top: 6vw;
+}
+
+/*This section comes from W3Schools*/
+
+.model {
+    margin-left: 320px;
+    padding-top: 4.5vw;
+}
