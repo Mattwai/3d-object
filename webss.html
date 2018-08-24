@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"><!--This line comes from google fonts-->
+    <title>
+        Website Screenshots
+    </title>
+</head>
+
+<body>
+    <div class="title">
+        <a href="index.html" id="title">3d Object</a>
+    </div>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="index.html" id="home">Home</a>
+        <a href="objinfo.html" id="info">Object Info</a>
+        <a href="inspo.html" id="inspo">Inspiration</a>
+        <a href="webinfo.html" id="web">Website Info</a>
+        <a href="tilt.html" id="tilt">Tilt Brush</a>
+        <a href="objss.html" id="os">Object <br>Screenshots</a>
+        <a href="webss.html" id="ws">Website <br>Screenshots</a>
+
+    </div>
+
+
+    <div class="w3-container">
+
+        <div class="w3-content w3-display-container" style="max-width:800px">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(187).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(188).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(190).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(192).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(193).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(195).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(197).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(198).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(199).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(200).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(201).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(215).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(216).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(217).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(218).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(219).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(220).png" style="width:100%" alt="Image">
+            <img class="mySlides" src="tinified_Images/Screenshot%20(221).png" style="width:100%" alt="Image">
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-center" style="width:100%">
+                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div><!--This section comes from W3Schools-->
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+    </script><!--This section comes from W3Schools-->
+
+</body>
+
+
+
+</html>
